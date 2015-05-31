@@ -28,5 +28,11 @@ tar xvzof $CLIENT_DISTRIBUTION_TAR
 
 git clone $BENCH_REPO
 
+# copy a few files to more convenient locations
+
+cp rabbitmq-perf-html/perf.css ../$LIB_DIR
+cp rabbitmq-perf-html/perf.js ../$LIB_DIR
+cp rabbitmq-perf-html/lib/*.js ../$LIB_DIR
+ 
 
 
