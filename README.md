@@ -13,4 +13,21 @@ Sources and Credits:
 
 A detailed description can be found on my [blog](http://blog.abarbanell.de).
 
+## HOW TO RUN
+
+first, make sure you have java installed, then clone this repo and from within the repo folder, do: 
+
+```
+$ ./setup.sh
+```
+to set up the tools, then you will need to edit the file 'spec.js' in each of benchmark scenario folders './scenarios/*'
+ to have valid AMQP URI's for your rabbitMQ broker. You can also create new scenario's by copying  the 'spec.js' file to a new scenario folder.
+
+Then run your scenario's with 
+
+````
+$ ./bench.sh
+```
+
+This will create (or overwrite) the result.js in each of the scenario folders.
 
