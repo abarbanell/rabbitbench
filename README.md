@@ -10,3 +10,7 @@ Sources and Credits:
 
 - https://github.com/rabbitmq/rabbitmq-perf-html
 - https://www.rabbitmq.com/java-tools.html
+
+A detailed description can be found on my [blog](http://blog.abarbanell.de).
+
+
