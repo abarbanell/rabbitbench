@@ -31,3 +31,9 @@ $ ./bench.sh
 
 This will create (or overwrite) the result.js in each of the scenario folders.
 
+You can visualize this with the report.html file in each scenario file. Depending on your browser you may not be able to view this via the "file://.." url, then you just could just fire up a local web server like so: 
+
+```
+$ python -m SimpleHTTPServer
+```
+
