@@ -10,6 +10,6 @@ export BENCH_REPO="https://github.com/rabbitmq/rabbitmq-perf-html.git"
 export LIB_DIR="./lib"
 
 export TOOL_DIR='./tools'
-export SCENARIO_DIR='./scenarios'
+export SCENARIO_DIR_PREFIX='./scenario-'
 
 
